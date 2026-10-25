@@ -1,0 +1,823 @@
+{
+  "alphabet": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "probabilities": [
+    "1/15",
+    "2/15",
+    "1/5",
+    "4/15",
+    "1/3"
+  ],
+  "q": 2,
+  "rate": "2.3",
+  "epsilon": "0.0001",
+  "order": "types: (probability, counts) descending; words: lexicographic",
+  "assignment": "rank from 0, written in base q with leading zeros to length",
+  "codes": [
+    {
+      "n": 1,
+      "length": 2,
+      "blocks": "4",
+      "last_type": {
+        "counts": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "taken": 1,
+        "probability_numerator": "2"
+      }
+    },
+    {
+      "n": 2,
+      "length": 4,
+      "blocks": "16",
+      "last_type": {
+        "counts": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "taken": 1,
+        "probability_numerator": "5"
+      }
+    },
+    {
+      "n": 3,
+      "length": 6,
+      "blocks": "64",
+      "last_type": {
+        "counts": [
+          0,
+          1,
+          2,
+          0,
+          0
+        ],
+        "taken": 1,
+        "probability_numerator": "18"
+      }
+    },
+    {
+      "n": 4,
+      "length": 9,
+      "blocks": "512",
+      "last_type": {
+        "counts": [
+          1,
+          2,
+          0,
+          1,
+          0
+        ],
+        "taken": 5,
+        "probability_numerator": "16"
+      }
+    },
+    {
+      "n": 5,
+      "length": 11,
+      "blocks": "2048",
+      "last_type": {
+        "counts": [
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        "taken": 20,
+        "probability_numerator": "75"
+      }
+    },
+    {
+      "n": 6,
+      "length": 13,
+      "blocks": "8192",
+      "last_type": {
+        "counts": [
+          2,
+          0,
+          1,
+          1,
+          2
+        ],
+        "taken": 148,
+        "probability_numerator": "300"
+      }
+    },
+    {
+      "n": 7,
+      "length": 16,
+      "blocks": "65536",
+      "last_type": {
+        "counts": [
+          3,
+          0,
+          2,
+          1,
+          1
+        ],
+        "taken": 356,
+        "probability_numerator": "180"
+      }
+    },
+    {
+      "n": 8,
+      "length": 18,
+      "blocks": "262144",
+      "last_type": {
+        "counts": [
+          2,
+          1,
+          3,
+          1,
+          1
+        ],
+        "taken": 2093,
+        "probability_numerator": "1080"
+      }
+    },
+    {
+      "n": 9,
+      "length": 20,
+      "blocks": "1048576",
+      "last_type": {
+        "counts": [
+          3,
+          0,
+          1,
+          3,
+          2
+        ],
+        "taken": 3313,
+        "probability_numerator": "4800"
+      }
+    },
+    {
+      "n": 10,
+      "length": 23,
+      "blocks": "8388608",
+      "last_type": {
+        "counts": [
+          3,
+          4,
+          0,
+          0,
+          3
+        ],
+        "taken": 1986,
+        "probability_numerator": "2000"
+      }
+    },
+    {
+      "n": 11,
+      "length": 25,
+      "blocks": "33554432",
+      "last_type": {
+        "counts": [
+          2,
+          4,
+          1,
+          3,
+          1
+        ],
+        "taken": 36692,
+        "probability_numerator": "15360"
+      }
+    },
+    {
+      "n": 12,
+      "length": 27,
+      "blocks": "134217728",
+      "last_type": {
+        "counts": [
+          4,
+          1,
+          0,
+          3,
+          4
+        ],
+        "taken": 29604,
+        "probability_numerator": "80000"
+      }
+    },
+    {
+      "n": 13,
+      "length": 29,
+      "blocks": "536870912",
+      "last_type": {
+        "counts": [
+          0,
+          7,
+          2,
+          3,
+          1
+        ],
+        "taken": 52393,
+        "probability_numerator": "368640"
+      }
+    },
+    {
+      "n": 14,
+      "length": 32,
+      "blocks": "4294967296",
+      "last_type": {
+        "counts": [
+          4,
+          2,
+          3,
+          2,
+          3
+        ],
+        "taken": 5297988,
+        "probability_numerator": "216000"
+      }
+    },
+    {
+      "n": 15,
+      "length": 34,
+      "blocks": "17179869184",
+      "last_type": {
+        "counts": [
+          3,
+          3,
+          4,
+          2,
+          3
+        ],
+        "taken": 100244443,
+        "probability_numerator": "1296000"
+      }
+    },
+    {
+      "n": 16,
+      "length": 36,
+      "blocks": "68719476736",
+      "last_type": {
+        "counts": [
+          3,
+          5,
+          0,
+          3,
+          5
+        ],
+        "taken": 4538667,
+        "probability_numerator": "6400000"
+      }
+    },
+    {
+      "n": 17,
+      "length": 39,
+      "blocks": "549755813888",
+      "last_type": {
+        "counts": [
+          5,
+          3,
+          1,
+          5,
+          3
+        ],
+        "taken": 583523663,
+        "probability_numerator": "3072000"
+      }
+    },
+    {
+      "n": 18,
+      "length": 41,
+      "blocks": "2199023255552",
+      "last_type": {
+        "counts": [
+          5,
+          3,
+          0,
+          6,
+          4
+        ],
+        "taken": 364861297,
+        "probability_numerator": "20480000"
+      }
+    },
+    {
+      "n": 19,
+      "length": 43,
+      "blocks": "8796093022208",
+      "last_type": {
+        "counts": [
+          4,
+          4,
+          3,
+          2,
+          6
+        ],
+        "taken": 14313134769,
+        "probability_numerator": "108000000"
+      }
+    },
+    {
+      "n": 20,
+      "length": 46,
+      "blocks": "70368744177664",
+      "last_type": {
+        "counts": [
+          6,
+          2,
+          4,
+          5,
+          3
+        ],
+        "taken": 87019071567,
+        "probability_numerator": "41472000"
+      }
+    },
+    {
+      "n": 21,
+      "length": 48,
+      "blocks": "281474976710656",
+      "last_type": {
+        "counts": [
+          5,
+          3,
+          5,
+          4,
+          4
+        ],
+        "taken": 684271436406,
+        "probability_numerator": "311040000"
+      }
+    },
+    {
+      "n": 22,
+      "length": 50,
+      "blocks": "1125899906842624",
+      "last_type": {
+        "counts": [
+          3,
+          5,
+          7,
+          5,
+          2
+        ],
+        "taken": 771482051911,
+        "probability_numerator": "1791590400"
+      }
+    },
+    {
+      "n": 23,
+      "length": 52,
+      "blocks": "4503599627370496",
+      "last_type": {
+        "counts": [
+          6,
+          3,
+          2,
+          3,
+          9
+        ],
+        "taken": 1250076805281,
+        "probability_numerator": "9000000000"
+      }
+    },
+    {
+      "n": 24,
+      "length": 55,
+      "blocks": "36028797018963968",
+      "last_type": {
+        "counts": [
+          4,
+          6,
+          6,
+          6,
+          2
+        ],
+        "taken": 1204042268168,
+        "probability_numerator": "4777574400"
+      }
+    },
+    {
+      "n": 25,
+      "length": 57,
+      "blocks": "144115188075855872",
+      "last_type": {
+        "counts": [
+          4,
+          6,
+          6,
+          5,
+          4
+        ],
+        "taken": 417095784266089,
+        "probability_numerator": "29859840000"
+      }
+    },
+    {
+      "n": 26,
+      "length": 59,
+      "blocks": "576460752303423488",
+      "last_type": {
+        "counts": [
+          2,
+          10,
+          5,
+          5,
+          4
+        ],
+        "taken": 28307893816378,
+        "probability_numerator": "159252480000"
+      }
+    },
+    {
+      "n": 27,
+      "length": 62,
+      "blocks": "4611686018427387904",
+      "last_type": {
+        "counts": [
+          6,
+          4,
+          7,
+          7,
+          3
+        ],
+        "taken": 615386824894144,
+        "probability_numerator": "71663616000"
+      }
+    },
+    {
+      "n": 28,
+      "length": 64,
+      "blocks": "18446744073709551616",
+      "last_type": {
+        "counts": [
+          6,
+          4,
+          6,
+          8,
+          4
+        ],
+        "taken": 629494976507686,
+        "probability_numerator": "477757440000"
+      }
+    },
+    {
+      "n": 29,
+      "length": 66,
+      "blocks": "73786976294838206464",
+      "last_type": {
+        "counts": [
+          6,
+          3,
+          8,
+          7,
+          5
+        ],
+        "taken": 46878993803241223,
+        "probability_numerator": "2687385600000"
+      }
+    },
+    {
+      "n": 30,
+      "length": 69,
+      "blocks": "590295810358705651712",
+      "last_type": {
+        "counts": [
+          6,
+          6,
+          8,
+          6,
+          4
+        ],
+        "taken": 728709900143246498,
+        "probability_numerator": "1074954240000"
+      }
+    },
+    {
+      "n": 31,
+      "length": 71,
+      "blocks": "2361183241434822606848",
+      "last_type": {
+        "counts": [
+          7,
+          6,
+          5,
+          4,
+          9
+        ],
+        "taken": 903839461716391668,
+        "probability_numerator": "7776000000000"
+      }
+    },
+    {
+      "n": 32,
+      "length": 73,
+      "blocks": "9444732965739290427392",
+      "last_type": {
+        "counts": [
+          3,
+          9,
+          11,
+          6,
+          3
+        ],
+        "taken": 664743044861416523,
+        "probability_numerator": "46438023168000"
+      }
+    },
+    {
+      "n": 33,
+      "length": 75,
+      "blocks": "37778931862957161709568",
+      "last_type": {
+        "counts": [
+          5,
+          4,
+          14,
+          5,
+          5
+        ],
+        "taken": 651782934504967111,
+        "probability_numerator": "244888012800000"
+      }
+    },
+    {
+      "n": 34,
+      "length": 78,
+      "blocks": "302231454903657293676544",
+      "last_type": {
+        "counts": [
+          7,
+          8,
+          5,
+          5,
+          9
+        ],
+        "taken": 218767887341801211607,
+        "probability_numerator": "124416000000000"
+      }
+    },
+    {
+      "n": 35,
+      "length": 80,
+      "blocks": "1208925819614629174706176",
+      "last_type": {
+        "counts": [
+          7,
+          4,
+          10,
+          9,
+          5
+        ],
+        "taken": 180179716621492308131,
+        "probability_numerator": "773967052800000"
+      }
+    },
+    {
+      "n": 36,
+      "length": 82,
+      "blocks": "4835703278458516698824704",
+      "last_type": {
+        "counts": [
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "taken": 2794281983725296848226,
+        "probability_numerator": "4299816960000000"
+      }
+    },
+    {
+      "n": 37,
+      "length": 85,
+      "blocks": "38685626227668133590597632",
+      "last_type": {
+        "counts": [
+          8,
+          5,
+          10,
+          8,
+          6
+        ],
+        "taken": 9695280020024824376596,
+        "probability_numerator": "1934917632000000"
+      }
+    },
+    {
+      "n": 38,
+      "length": 87,
+      "blocks": "154742504910672534362390528",
+      "last_type": {
+        "counts": [
+          7,
+          7,
+          9,
+          8,
+          7
+        ],
+        "taken": 41817289251762786972419,
+        "probability_numerator": "12899450880000000"
+      }
+    },
+    {
+      "n": 39,
+      "length": 89,
+      "blocks": "618970019642690137449562112",
+      "last_type": {
+        "counts": [
+          9,
+          5,
+          6,
+          8,
+          11
+        ],
+        "taken": 102612553050290705841934,
+        "probability_numerator": "74649600000000000"
+      }
+    },
+    {
+      "n": 40,
+      "length": 92,
+      "blocks": "4951760157141521099596496896",
+      "last_type": {
+        "counts": [
+          5,
+          15,
+          6,
+          7,
+          7
+        ],
+        "taken": 126044720915689866699520,
+        "probability_numerator": "30576476160000000"
+      }
+    },
+    {
+      "n": 41,
+      "length": 94,
+      "blocks": "19807040628566084398385987584",
+      "last_type": {
+        "counts": [
+          7,
+          10,
+          8,
+          7,
+          9
+        ],
+        "taken": 2040126209097514546875436,
+        "probability_numerator": "214990848000000000"
+      }
+    },
+    {
+      "n": 42,
+      "length": 96,
+      "blocks": "79228162514264337593543950336",
+      "last_type": {
+        "counts": [
+          8,
+          7,
+          9,
+          9,
+          9
+        ],
+        "taken": 114952705444390213995780145,
+        "probability_numerator": "1289945088000000000"
+      }
+    },
+    {
+      "n": 43,
+      "length": 98,
+      "blocks": "316912650057057350374175801344",
+      "last_type": {
+        "counts": [
+          8,
+          10,
+          3,
+          10,
+          12
+        ],
+        "taken": 7067989591754261165716479,
+        "probability_numerator": "7077888000000000000"
+      }
+    },
+    {
+      "n": 44,
+      "length": 101,
+      "blocks": "2535301200456458802993406410752",
+      "last_type": {
+        "counts": [
+          8,
+          8,
+          12,
+          8,
+          8
+        ],
+        "taken": 229279946416955476915388675,
+        "probability_numerator": "3482851737600000000"
+      }
+    },
+    {
+      "n": 45,
+      "length": 103,
+      "blocks": "10141204801825835211973625643008",
+      "last_type": {
+        "counts": [
+          8,
+          9,
+          8,
+          12,
+          8
+        ],
+        "taken": 4392331684506191894439969127,
+        "probability_numerator": "22015062835200000000"
+      }
+    },
+    {
+      "n": 46,
+      "length": 105,
+      "blocks": "40564819207303340847894502572032",
+      "last_type": {
+        "counts": [
+          9,
+          10,
+          5,
+          7,
+          15
+        ],
+        "taken": 2674370531049471895233081439,
+        "probability_numerator": "124416000000000000000"
+      }
+    },
+    {
+      "n": 47,
+      "length": 108,
+      "blocks": "324518553658426726783156020576256",
+      "last_type": {
+        "counts": [
+          8,
+          12,
+          11,
+          3,
+          13
+        ],
+        "taken": 8667895168177610611813662309,
+        "probability_numerator": "56687040000000000000"
+      }
+    },
+    {
+      "n": 48,
+      "length": 110,
+      "blocks": "1298074214633706907132624082305024",
+      "last_type": {
+        "counts": [
+          9,
+          8,
+          11,
+          11,
+          9
+        ],
+        "taken": 405880653242380296114977283151,
+        "probability_numerator": "371504185344000000000"
+      }
+    },
+    {
+      "n": 49,
+      "length": 112,
+      "blocks": "5192296858534827628530496329220096",
+      "last_type": {
+        "counts": [
+          7,
+          13,
+          8,
+          11,
+          10
+        ],
+        "taken": 1974686523096588287665026058696,
+        "probability_numerator": "2201506283520000000000"
+      }
+    },
+    {
+      "n": 50,
+      "length": 115,
+      "blocks": "41538374868278621028243970633760768",
+      "last_type": {
+        "counts": [
+          11,
+          8,
+          11,
+          7,
+          13
+        ],
+        "taken": 3851436942447050875816084474715,
+        "probability_numerator": "906992640000000000000"
+      }
+    }
+  ]
+}
